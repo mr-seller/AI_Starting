@@ -14,4 +14,3 @@ for kullanici in yorum_birakanlar:
     else:
         kullanici_sayisi += 1
         print("{}. Kullanıcının Adı: {}, Soyadı: {}".format(kullanici_sayisi, kullanici_adi, kullanici_soyadi))
-    
