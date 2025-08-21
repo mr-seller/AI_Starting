@@ -1,0 +1,12 @@
+def sayi_girdisi_kontrol():
+    girdi = input("Bir sayı giriniz:")
+    while not girdi.isdigit():
+        print("Üzgünüm bu bir sayı tipi değişken değildir")
+        girdi = input("Bir sayı giriniz:")
+    else:
+        print("Tebrikler sayı tipinde değer girdiniz")
+sayi_girdisi_kontrol()
+
+
+
+    

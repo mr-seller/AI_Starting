@@ -1,4 +1,5 @@
-def ad_soyad_birleştir(*args):
-    return " ".join(args)
+def ad_birlestir(**kwargs):
+    print(kwargs)
 
-print(ad_soyad_birleştir("Süleyman", "Recep", "Satıcı"))
+
+ad_birlestir(a = "1", b = "2")
