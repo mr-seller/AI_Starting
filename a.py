@@ -4,7 +4,7 @@ def factorial (number):
         factorial *= i
     return("{}! eşittir {}".format(number, factorial))
 
-number = int(input("Bir numara giriniz"))
+number = int(input("Bir numara giriniz: "))
 
 
 
